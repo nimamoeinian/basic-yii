@@ -1,0 +1,206 @@
+body {
+    direction :rtl;
+    background-color: #222;
+    font-family:'BYekan';
+}
+
+@font-face {
+    font-family: 'BYekan';
+    src: url('../fonts/BYekan.eot');
+    src: url('../fonts/BYekan.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BYekan.woff') format('woff'),
+    url('../fonts/BYekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.box-l{
+    background: url("../img/gr.jpg");
+    background-size: cover;
+    padding:0
+}
+
+.box-s{
+    color: #222;
+    padding:50px;
+    transition: 0.3s;
+    border: 1px solid #555;
+    background: #ddd;
+    opacity:0.8;
+}
+
+.box-s:hover{
+    color:#e74141;
+    background:#fff;
+    padding-right:5px;
+    opacity:1;
+}
+
+.bg-red{
+    background-color: #e74141;
+    padding-bottom: 30px;
+}
+
+.bg-red span{
+    display: block;
+    color:#eee;
+    text-align: center;
+    font-size: 30px;
+    transition : 0.1s;
+}
+.bg-red span:hover{
+    padding-right:7px;
+}
+
+.logo img{
+    display:block;
+    margin:0 auto;
+    padding-top: 60px;
+}
+
+.btn-site h3{
+    font-size:17px;
+    padding: 20px 10px;
+    margin:20px 0;
+    width: 20%;
+    border:2px solid #eee;
+    margin: 30px auto 15px auto;
+    text-align: center;
+    transition: 0.3s;
+    line-height: 30px;
+    color: #fff;
+}
+
+.btn-site h3:hover{
+    background-color: #fff;
+    opacity: 1;
+    color: #c0392b;
+}
+
+.btn-dl h3{
+    text-align:center;
+    font-size:17px;
+    font-size:17px;
+    margin:10px;
+    padding:10px;
+    opacity: 0.8;
+    transition: 0.3s;
+    line-height: 30px;
+}
+
+.btn-dl h3:hover{
+    opacity: 1;
+    color: #c0392b;
+}
+a{
+    color:#fff;
+}
+a:hover{
+    color:c0392b;
+}
+
+.box-l a{
+    text-decoration: none;
+}
+
+.box-s h1{
+    text-align: center;
+    font-size: 65px;
+    padding-top: 30px;
+}
+
+.audio-row{
+    padding:60px 0;
+    background-color:#ecf0f1;
+}
+
+.audio-row h1{
+    font-size:40px;
+    text-align: center;
+}
+
+audio{
+    margin:0 auto;
+    display:block;
+}
+
+.audio{
+    opacity:0.1;
+    padding:40px 0;
+}
+
+.audio h3{
+    font-size:16px;
+    text-align: center;
+}
+
+.video-row{
+    color:#222;
+    padding:60px 0;
+    background-color:#fff;
+    border-bottom: 1px solid #222;
+}
+
+.video-row h1{
+    font-size:40px;
+    text-align: center;
+}
+
+video{
+    margin:0 auto;
+    display:block;
+}
+
+.video-box{
+    padding: 60px 0;
+}
+
+#footer {
+    left:0px;
+    bottom:0px;
+    height:60px;
+    width:100%;
+    background:#222;
+    color:#fff;
+    text-align: center;
+    padding:20px 0;
+}
+
+#playlist {
+    padding-top: 20px;
+    list-style: none;
+}
+
+#playlist li{
+    cursor:pointer;
+    padding:10px;
+    margin:5px;
+    border:1px solid #222;
+}
+
+li .section-list{
+    border:0 !important;
+    padding:0 !important;
+    margin:5px !important;
+}
+
+#playlist li:hover{
+
+}
+
+#videoarea {
+    width:608px;
+}
+
+.player_panel{
+    background-image: url("../img/tvtnovin.png");
+    background-size: contain;
+    height: 40px;
+    margin: 0 auto;
+    width: 608px;
+}
+
+.time{
+    text-align: center;
+    color:#aaa;
+    font-size: 16px;
+}
